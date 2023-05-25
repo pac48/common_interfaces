@@ -20,6 +20,7 @@ set(msg_files
   "msg/MeshTriangle.msg"
   "msg/Plane.msg"
   "msg/SolidPrimitive.msg"
+  "msg/Network.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
